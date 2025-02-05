@@ -212,3 +212,10 @@ nav button:hover {
 input, textarea, button {
   box-sizing: border-box;
 }
+
+@media (max-width: 768px) {
+  /* Стили для экранов до 768px */
+}
+@media (max-width: 480px) {
+  /* Стили для экранов до 480px */
+}
