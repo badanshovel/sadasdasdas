@@ -1,0 +1,214 @@
+/* Общий стиль */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+h1, h2, h3 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  margin: 12px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.tab-content {
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.tab-content:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #4CAF50;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 3px solid #3e8e41;
+}
+
+nav button {
+  font-size: 16px;
+  padding: 12px 18px;
+  border-radius: 8px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s ease-in-out;
+}
+
+nav button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+/* Главная страница */
+.main-page button {
+  background-color: #008CBA;
+  margin-bottom: 20px;
+}
+
+.main-page button:hover {
+  background-color: #007bb5;
+}
+
+.main-page div {
+  text-align: center;
+}
+
+.main-page h3 {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.main-page p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.main-page .studied-words {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #555;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Добавить слово */
+.add-word-page {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.add-word-page h2 {
+  text-align: center;
+}
+
+.add-word-page button {
+  background-color: #FF9800;
+  width: 100%;
+}
+
+.add-word-page button:hover {
+  background-color: #f57c00;
+}
+
+/* Карточки */
+.flashcards-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flashcards-page .flashcard {
+  background-color: #ffffff;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.flashcards-page .flashcard:hover {
+  transform: translateY(-5px);
+}
+
+.flashcards-page button {
+  background-color: #FF5722;
+  width: 100%;
+}
+
+.flashcards-page button:hover {
+  background-color: #e64a19;
+}
+
+/* Подсказки */
+.help-page {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.help-page h2 {
+  text-align: center;
+}
+
+.help-page ul {
+  padding-left: 20px;
+}
+
+.help-page li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+/* Общее улучшение */
+.app {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #f0f0f0;
+  border-radius: 12px;
+}
+
+input, textarea, button {
+  box-sizing: border-box;
+}
